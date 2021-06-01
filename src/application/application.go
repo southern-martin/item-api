@@ -2,8 +2,8 @@ package application
 
 import (
 	"github.com/gorilla/mux"
-	"github.com/tannpv/bookstore_items-api/src/clients/elasticsearch"
-	"github.com/tannpv/bookstore_utils-go/logger"
+	"github.com/southern-martin/item-api/src/client/elasticsearch"
+	"github.com/southern-martin/util-go/logger"
 	"net/http"
 	"time"
 )

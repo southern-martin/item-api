@@ -1,4 +1,4 @@
-package queries
+package query
 
 type EsQuery struct {
 	Equals []FieldValue `json:"equals"`

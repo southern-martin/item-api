@@ -1,4 +1,4 @@
-package items
+package item
 
 type Item struct {
 	Id                string      `json:"id"`

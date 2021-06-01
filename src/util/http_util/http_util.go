@@ -1,8 +1,8 @@
-package http_utils
+package http_util
 
 import (
 	"encoding/json"
-	"github.com/tannpv/bookstore_utils-go/rest_errors"
+	"github.com/southern-martin/util-go/rest_error"
 	"net/http"
 )
 
@@ -12,6 +12,6 @@ func RespondJson(w http.ResponseWriter, statusCode int, body interface{}) {
 	json.NewEncoder(w).Encode(body)
 }
 
-func RespondError(w http.ResponseWriter, err rest_errors.RestErr) {
+func RespondError(w http.ResponseWriter, err rest_error.RestErr) {
 	RespondJson(w, err.Status(), err)
 }

@@ -1,15 +1,15 @@
-package controllers
+package controller
 
 import (
 	"encoding/json"
 	"fmt"
 	"github.com/gorilla/mux"
-	"github.com/tannpv/bookstore_items-api/src/domain/items"
-	"github.com/tannpv/bookstore_items-api/src/domain/queries"
-	"github.com/tannpv/bookstore_items-api/src/services"
-	"github.com/tannpv/bookstore_items-api/src/utils/http_utils"
-	"github.com/tannpv/bookstore_oauth-go/oauth"
-	"github.com/tannpv/bookstore_utils-go/rest_errors"
+	"github.com/southern-martin/item-api/src/domain/item"
+	"github.com/southern-martin/item-api/src/domain/query"
+	"github.com/southern-martin/item-api/src/service"
+	"github.com/southern-martin/item-api/src/util/http_util"
+	"github.com/southern-martin/oauth-go/oauth"
+	"github.com/southern-martin/util-go/rest_error"
 	"io/ioutil"
 	"net/http"
 	"strings"

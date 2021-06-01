@@ -1,14 +1,14 @@
 package application
 
 import (
-	"github.com/tannpv/bookstore_items-api/src/controllers"
+	"github.com/southern-martin/item-api/src/controller"
 	"net/http"
 )
 
 func mapUrls() {
-	router.HandleFunc("/ping", controllers.PingController.Ping).Methods(http.MethodGet)
+	router.HandleFunc("/ping", controller.PingController.Ping).Methods(http.MethodGet)
 
-	router.HandleFunc("/items", controllers.ItemsController.Create).Methods(http.MethodPost)
-	router.HandleFunc("/items/{id}", controllers.ItemsController.Get).Methods(http.MethodGet)
-	router.HandleFunc("/items/search", controllers.ItemsController.Search).Methods(http.MethodPost)
+	router.HandleFunc("/item", controller.ItemController.Create).Methods(http.MethodPost)
+	router.HandleFunc("/item/{id}", controller.ItemController.Get).Methods(http.MethodGet)
+	router.HandleFunc("/item/search", controller.ItemController.Search).Methods(http.MethodPost)
 }
