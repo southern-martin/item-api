@@ -1,9 +1,9 @@
 package services
 
 import (
-	"github.com/bookstore_/item-api/src/domain/items"
-	"github.com/bookstore_/item-api/src/domain/queries"
-	"github.com/bookstore_/util-go/rest_errors"
+	"github.com/southern-martin/item-api/src/domain/items"
+	"github.com/southern-martin/item-api/src/domain/queries"
+	"github.com/southern-martin/util-go/rest_errors"
 )
 
 var (
