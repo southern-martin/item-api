@@ -1,7 +1,6 @@
 module github.com/southern-martin/item-api
 
-go 1.14
-
+go 1.15
 require (
 	//github.com/federicoleon/bookstore_oauth-go v0.0.0-20200406082339-873170041fa4
 	//github.com/federicoleon/bookstore_utils-go v0.0.0-20191115214654-f8b94f132ebf
