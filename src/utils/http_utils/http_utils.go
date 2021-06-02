@@ -2,7 +2,7 @@ package http_utils
 
 import (
 	"encoding/json"
-	"github.com/bookstore_/util-go/rest_errors"
+	"github.com/southern-martin/util-go/rest_errors"
 	"net/http"
 )
 

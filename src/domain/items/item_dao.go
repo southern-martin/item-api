@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/bookstore_/item-api/src/clients/elasticsearch"
-	"github.com/bookstore_/item-api/src/domain/queries"
-	"github.com/bookstore_/util-go/rest_errors"
+	"github.com/southern-martin/item-api/src/clients/elasticsearch"
+	"github.com/southern-martin/item-api/src/domain/queries"
+	"github.com/southern-martin/util-go/rest_errors"
 	"strings"
 )
 
