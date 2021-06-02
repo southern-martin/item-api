@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/bookstore_/item-api/src/application"
+	"github.com/southern-martin/item-api/src/application"
 )
 
 func main() {
